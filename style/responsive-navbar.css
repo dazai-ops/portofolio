@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+  header .container-navbar nav {
+    position: fixed;
+    width: 100%;
+    right: 0;
+    top: 0;
+    z-index: 9;
+    height: 100vh;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    transform: translateX(100%);
+    transition: 0.3s ease-in-out;
+  }
+  header .container-navbar nav .menu {
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  header .container-navbar .menuBurger {
+    cursor: pointer;
+  }
+  header .container-navbar .toggle-burger {
+    transition: all 1s;
+    position: fixed;
+  }
+  header .container-navbar .toggle-burger .firstLine {
+    transform: rotate(-45deg) translate(-5px, 8.5px);
+  }
+  header .container-navbar .toggle-burger .secondLine {
+    opacity: 0;
+  }
+  header .container-navbar .toggle-burger .thirdLine {
+    transform: rotate(45deg) translate(-5px, -9.5px);
+  }
+  header .container-navbar .nav-active {
+    transform: translateX(0);
+  }
+}/*# sourceMappingURL=responsive-navbar.css.map */

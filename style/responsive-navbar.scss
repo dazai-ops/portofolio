@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+  header{
+    .container-navbar {
+      nav {
+        position: fixed;
+        width: 100%;
+        right: 0;
+        top: 0;
+        z-index: 9;
+        height: 100vh;
+        flex-direction: column;
+        background: rgb(255, 255, 255);
+        transform: translateX(100%);
+        transition: 0.3s ease-in-out;
+
+        .menu {
+          height: 100vh;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+      
+      .menuBurger {
+        cursor: pointer;
+      }
+      
+      .toggle-burger{
+        transition: all 1s;
+        position: fixed;
+        .firstLine {
+          transform: rotate(-45deg)translate(-5px, 8.5px);
+        }
+
+        .secondLine {
+          opacity: 0;
+        }
+
+        .thirdLine {
+          transform: rotate(45deg)translate(-5px, -9.5px);
+        }
+      }
+      .nav-active {
+        transform: translateX(0);
+      }
+    }
+  }
+}
