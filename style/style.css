@@ -213,7 +213,8 @@ main .container-skills .grid-skills {
 }
 main .container-skills .grid-skills .html,
 main .container-skills .grid-skills .css,
-main .container-skills .grid-skills .javascript {
+main .container-skills .grid-skills .javascript,
+main .container-skills .grid-skills .php {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -226,19 +227,22 @@ main .container-skills .grid-skills .javascript {
 }
 main .container-skills .grid-skills .html img,
 main .container-skills .grid-skills .css img,
-main .container-skills .grid-skills .javascript img {
+main .container-skills .grid-skills .javascript img,
+main .container-skills .grid-skills .php img {
   width: 30px;
   margin: 10px 0 20px;
 }
 main .container-skills .grid-skills .html h1,
 main .container-skills .grid-skills .css h1,
-main .container-skills .grid-skills .javascript h1 {
+main .container-skills .grid-skills .javascript h1,
+main .container-skills .grid-skills .php h1 {
   font-size: 20px;
   color: #5e68c7;
 }
 main .container-skills .grid-skills .html p,
 main .container-skills .grid-skills .css p,
-main .container-skills .grid-skills .javascript p {
+main .container-skills .grid-skills .javascript p,
+main .container-skills .grid-skills .php p {
   font-size: 8px;
 }
 main .container-skills .grid-skills .html:hover {
@@ -250,16 +254,8 @@ main .container-skills .grid-skills .css:hover {
 main .container-skills .grid-skills .javascript:hover {
   transform: scale(1.1);
 }
-@media screen and (max-width: 737px) {
-  main .container-skills .grid-skills .javascript {
-    position: relative;
-    left: 55%;
-  }
-}
-@media screen and (max-width: 481px) {
-  main .container-skills .grid-skills .javascript {
-    position: sticky;
-  }
+main .container-skills .grid-skills .php:hover {
+  transform: scale(1.1);
 }
 
 .project {

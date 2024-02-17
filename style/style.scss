@@ -70,7 +70,7 @@ header {
         background-color: black;
         margin: 7px;
       }
-      
+
       @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
@@ -202,7 +202,8 @@ main {
 
       .html,
       .css,
-      .javascript {
+      .javascript,
+      .php {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -235,19 +236,21 @@ main {
       .javascript:hover {
         transform: scale(1.1);
       }
-
+      .php:hover {
+        transform: scale(1.1);
+      }
       // relation with grid-skills Class
-      @media screen and (max-width: 737px) {
-        .javascript {
-          position: relative;
-          left: 55%;
-        }
-      }
-      @media screen and (max-width: 481px) {
-        .javascript {
-          position: sticky;
-        }
-      }
+      // @media screen and (max-width: 737px) {
+      //   .javascript {
+      //     position: relative;
+      //     left: 55%;
+      //   }
+      // }
+      // @media screen and (max-width: 481px) {
+      //   .javascript {
+      //     position: sticky;
+      //   }
+      // }
       // end of above
     }
   }
@@ -337,10 +340,8 @@ main {
             font-family: "poppins-text";
           }
         }
-
-        
       }
-      .teknologi{
+      .teknologi {
         display: flex;
         margin: 0px 0 8px 5px;
         gap: 10px;
@@ -376,7 +377,6 @@ main {
           @media screen and (max-width: 1060px) {
             font-size: 8px;
           }
-
         }
       }
 
