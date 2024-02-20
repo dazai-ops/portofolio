@@ -232,6 +232,13 @@ main .container-skills .grid-skills .php img {
   width: 30px;
   margin: 10px 0 20px;
 }
+main .container-skills .grid-skills .html .php-icon,
+main .container-skills .grid-skills .css .php-icon,
+main .container-skills .grid-skills .javascript .php-icon,
+main .container-skills .grid-skills .php .php-icon {
+  width: 40px;
+  margin: 10px 0 10px;
+}
 main .container-skills .grid-skills .html h1,
 main .container-skills .grid-skills .css h1,
 main .container-skills .grid-skills .javascript h1,
