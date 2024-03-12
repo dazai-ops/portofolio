@@ -3,6 +3,7 @@
   padding: 0;
   text-decoration: none;
   font-family: "poppins";
+  scroll-behavior: smooth;
 }
 
 body {
@@ -39,7 +40,7 @@ header .container-navbar .logo .title-1 {
 header .container-navbar .menu {
   display: flex;
   list-style: none;
-  gap: 100px;
+  gap: 75px;
 }
 header .container-navbar .menu li a {
   color: #192655;
@@ -49,12 +50,12 @@ header .container-navbar .menu li a {
 header .container-navbar .menu li :hover {
   color: #a8bbbf;
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   header .container-navbar .menu {
-    gap: 70px;
+    gap: 60px;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
   header .container-navbar .menu {
     gap: 45px;
   }
@@ -127,7 +128,7 @@ main .container-hero .grid-hero .left .hi {
 }
 @media screen and (max-width: 1024px) {
   main .container-hero .grid-hero .left .hi {
-    margin-top: 0;
+    margin-top: -50px;
   }
 }
 main .container-hero .grid-hero .left h1 {
@@ -214,7 +215,8 @@ main .container-skills .grid-skills {
 main .container-skills .grid-skills .html,
 main .container-skills .grid-skills .css,
 main .container-skills .grid-skills .javascript,
-main .container-skills .grid-skills .php {
+main .container-skills .grid-skills .php,
+main .container-skills .grid-skills .laravel {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -228,28 +230,32 @@ main .container-skills .grid-skills .php {
 main .container-skills .grid-skills .html img,
 main .container-skills .grid-skills .css img,
 main .container-skills .grid-skills .javascript img,
-main .container-skills .grid-skills .php img {
+main .container-skills .grid-skills .php img,
+main .container-skills .grid-skills .laravel img {
   width: 30px;
   margin: 10px 0 20px;
 }
 main .container-skills .grid-skills .html .php-icon,
 main .container-skills .grid-skills .css .php-icon,
 main .container-skills .grid-skills .javascript .php-icon,
-main .container-skills .grid-skills .php .php-icon {
+main .container-skills .grid-skills .php .php-icon,
+main .container-skills .grid-skills .laravel .php-icon {
   width: 40px;
   margin: 10px 0 10px;
 }
 main .container-skills .grid-skills .html h1,
 main .container-skills .grid-skills .css h1,
 main .container-skills .grid-skills .javascript h1,
-main .container-skills .grid-skills .php h1 {
+main .container-skills .grid-skills .php h1,
+main .container-skills .grid-skills .laravel h1 {
   font-size: 20px;
   color: #5e68c7;
 }
 main .container-skills .grid-skills .html p,
 main .container-skills .grid-skills .css p,
 main .container-skills .grid-skills .javascript p,
-main .container-skills .grid-skills .php p {
+main .container-skills .grid-skills .php p,
+main .container-skills .grid-skills .laravel p {
   font-size: 8px;
 }
 main .container-skills .grid-skills .html:hover {
@@ -262,6 +268,9 @@ main .container-skills .grid-skills .javascript:hover {
   transform: scale(1.1);
 }
 main .container-skills .grid-skills .php:hover {
+  transform: scale(1.1);
+}
+main .container-skills .grid-skills .laravel:hover {
   transform: scale(1.1);
 }
 
@@ -306,7 +315,7 @@ main .container-skills .grid-skills .php:hover {
   box-sizing: border-box;
   justify-content: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .project .container-card-project {
     grid-template-columns: 1fr;
     gap: 50px;
@@ -360,7 +369,7 @@ main .container-skills .grid-skills .php:hover {
   margin: 0px 0 8px 5px;
   gap: 10px;
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 965px) {
   .project .container-card-project .card-project .teknologi {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -410,9 +419,9 @@ main .container-skills .grid-skills .php:hover {
   font-weight: 100;
 }
 
-aside #particles-js {
+section #particles-js {
   width: 100%;
-  height: 400px;
+  height: 500px;
   background-color: white;
 }
 

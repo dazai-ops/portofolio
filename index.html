@@ -10,7 +10,7 @@
   </head>
   <body>
     <!--Navbar -->
-    <header>
+    <header id="home">
       <div class="container-navbar">
         <!-- AP as website Logo -->
         <div class="logo">
@@ -20,9 +20,11 @@
         <!-- Menu on navbar -->
         <nav>
           <ul class="menu">
-            <li class="menuSatu"><a href="./index.html">Home</a></li>
+            <li class="menuSatu"><a href="#home">Home</a></li>
             <li class="menuDua"><a href="https://instagram.com/yumaaji12" target="_blank">Instagram</a></li>
             <li class="menuTiga"><a href="https://github.com/yumaaji" target="_blank">Github</a></li>
+            <li class="menuEmpat"><a href="#skills">Skills</a></li>
+            <li class="menuLima"><a href="#project">Project</a></li>
           </ul>
         </nav>
         <!-- End of menu -->
@@ -49,7 +51,7 @@
               <span>Yuma</span> <br />
               Aji Pangestu
             </h1>
-            <p class="self-information">student during the learning period in UI/UX and focuses on website development with modern application, find out more with the github address above.</p>
+            <p class="self-information">A vocational high school student on the way to learn software development especially websites with modern technology, find out more with the github address above.</p>
           </div>
           <div class="right">
             <img src="./img/hero-walk-left.png" alt="" />
@@ -59,36 +61,41 @@
       <!-- End of Hero Konten -->
 
       <!-- Skill Konten -->
-      <section class="container-skills">
+      <section class="container-skills" id="skills">
         <h1 class="skills-title">-Skills</h1>
         <h2 class="after-skills-title">on the way of learning</h2>
         <div class="grid-skills">
           <div class="html">
             <img src="./img/html.png" alt="" />
             <h1>HTML</h1>
-            <p>html is main structure from a website that is so important for web developers to master.</p>
+            <p>The most basic building block of the Web. It defines the meaning and structure of web content.</p>
           </div>
           <div class="css">
             <img src="./img/css.png" alt="" />
             <h1>CSS</h1>
-            <p>css is style pattern for make website more attractive in the eyes of the user, can use framework for more.</p>
+            <p>Stylesheet language used to describe the presentation of a document written in HTML or XML</p>
           </div>
           <div class="javascript">
             <img src="./img/js.png" alt="" />
             <h1>JAVA SCRIPT</h1>
-            <p>javascript used for make website page more interactive with user, enabling websites more interactive.</p>
+            <p>JavaScript.com is a resource built by the Pluralsight team for the JavaScript community.</p>
           </div>
           <div class="php">
-            <img src="./img/php.png" alt="" class="php-icon"/>
+            <img src="./img/php.png" alt="" class="php-icon" />
             <h1>PHP</h1>
-            <p>php (hypertext preprocessor) is a programming language commonly used to build dynamic and interactive web applications.</p>
+            <p>A popular general-purpose scripting language that is especially suited to web development.</p>
+          </div>
+          <div class="laravel">
+            <img src="./img/laravel.png" alt="" class="php-icon" />
+            <h1>Laravel</h1>
+            <p>Laravel is a web application framework with expressive, elegant syntax.</p>
           </div>
         </div>
       </section>
       <!-- End of skills konten -->
 
       <!-- project card -->
-      <section class="project">
+      <section class="project" id="project">
         <h1>Project Result</h1>
         <div class="container-card-project">
           <div class="card-project">
@@ -118,13 +125,14 @@
             <div class="button-card">
               <h6>SPP Kita</h6>
               <div class="status">
-                <button>#On Going |</button>
+                <button>#Development |</button>
                 <a href="https://github.com/yumaaji/spp-app" target="_blank">Visited</a>
               </div>
             </div>
             <div class="teknologi">
               <button>html</button>
               <button>scss</button>
+              <button>bootstrap</button>
               <button>javascript</button>
               <button>php</button>
               <button>codeigniter</button>
@@ -133,6 +141,26 @@
             <p>
               SPP Kita is a website that used to calculate annual expenditure from students at Boyolangu 1 State Vocational High School, for now includes recording training activities, industrial work visit plans, school contribution, this
               is the second project after Kita Bersuara which will continue to be developed to be better and appropriate
+            </p>
+          </div>
+
+          <div class="card-project">
+            <img src="./img/project-portfolio.png" alt="" />
+            <div class="button-card">
+              <h6>Personal Portfolio Website</h6>
+              <div class="status">
+                <button>#Finished |</button>
+                <a href="https://github.com/yumaaji/portfolio" target="_blank">Visited</a>
+              </div>
+            </div>
+            <div class="teknologi">
+              <button>html</button>
+              <button>scss</button>
+              <button>javascript</button>
+            </div>
+            <p>
+              A personal website to tell the website project that we have and are working on, besides that it can also be used to display the skills we have. With a minimalist and clean concept with a black and white color theme. You can
+              get the source code to display this website by pressing 'Visited' above
             </p>
           </div>
         </div>
