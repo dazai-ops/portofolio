@@ -209,7 +209,9 @@ main {
       .php,
       .laravel,
       .mysql,
-      .react {
+      .react,
+      .tailwind,
+      .bootstrap {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -231,7 +233,9 @@ main {
 
         .mysql-image,
         .laravel-image,
-        .react-image {
+        .react-image,
+        .tailwind-image,
+        .bootstrap-image {
           width: 35px;
         }
         h1 {
@@ -262,6 +266,12 @@ main {
         transform: scale(1.1);
       }
       .react:hover {
+        transform: scale(1.1);
+      }
+      .bootstrap:hover {
+        transform: scale(1.1);
+      }
+      .tailwind:hover {
         transform: scale(1.1);
       }
       // relation with grid-skills Class

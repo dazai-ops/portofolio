@@ -219,7 +219,9 @@ main .container-skills .grid-skills .javascript,
 main .container-skills .grid-skills .php,
 main .container-skills .grid-skills .laravel,
 main .container-skills .grid-skills .mysql,
-main .container-skills .grid-skills .react {
+main .container-skills .grid-skills .react,
+main .container-skills .grid-skills .tailwind,
+main .container-skills .grid-skills .bootstrap {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -235,7 +237,9 @@ main .container-skills .grid-skills .javascript img,
 main .container-skills .grid-skills .php img,
 main .container-skills .grid-skills .laravel img,
 main .container-skills .grid-skills .mysql img,
-main .container-skills .grid-skills .react img {
+main .container-skills .grid-skills .react img,
+main .container-skills .grid-skills .tailwind img,
+main .container-skills .grid-skills .bootstrap img {
   width: 30px;
   margin: 10px 0 0;
 }
@@ -245,31 +249,57 @@ main .container-skills .grid-skills .javascript .php-image,
 main .container-skills .grid-skills .php .php-image,
 main .container-skills .grid-skills .laravel .php-image,
 main .container-skills .grid-skills .mysql .php-image,
-main .container-skills .grid-skills .react .php-image {
+main .container-skills .grid-skills .react .php-image,
+main .container-skills .grid-skills .tailwind .php-image,
+main .container-skills .grid-skills .bootstrap .php-image {
   width: 40px;
   align-items: center;
 }
 main .container-skills .grid-skills .html .mysql-image,
 main .container-skills .grid-skills .html .laravel-image,
 main .container-skills .grid-skills .html .react-image,
+main .container-skills .grid-skills .html .tailwind-image,
+main .container-skills .grid-skills .html .bootstrap-image,
 main .container-skills .grid-skills .css .mysql-image,
 main .container-skills .grid-skills .css .laravel-image,
 main .container-skills .grid-skills .css .react-image,
+main .container-skills .grid-skills .css .tailwind-image,
+main .container-skills .grid-skills .css .bootstrap-image,
 main .container-skills .grid-skills .javascript .mysql-image,
 main .container-skills .grid-skills .javascript .laravel-image,
 main .container-skills .grid-skills .javascript .react-image,
+main .container-skills .grid-skills .javascript .tailwind-image,
+main .container-skills .grid-skills .javascript .bootstrap-image,
 main .container-skills .grid-skills .php .mysql-image,
 main .container-skills .grid-skills .php .laravel-image,
 main .container-skills .grid-skills .php .react-image,
+main .container-skills .grid-skills .php .tailwind-image,
+main .container-skills .grid-skills .php .bootstrap-image,
 main .container-skills .grid-skills .laravel .mysql-image,
 main .container-skills .grid-skills .laravel .laravel-image,
 main .container-skills .grid-skills .laravel .react-image,
+main .container-skills .grid-skills .laravel .tailwind-image,
+main .container-skills .grid-skills .laravel .bootstrap-image,
 main .container-skills .grid-skills .mysql .mysql-image,
 main .container-skills .grid-skills .mysql .laravel-image,
 main .container-skills .grid-skills .mysql .react-image,
+main .container-skills .grid-skills .mysql .tailwind-image,
+main .container-skills .grid-skills .mysql .bootstrap-image,
 main .container-skills .grid-skills .react .mysql-image,
 main .container-skills .grid-skills .react .laravel-image,
-main .container-skills .grid-skills .react .react-image {
+main .container-skills .grid-skills .react .react-image,
+main .container-skills .grid-skills .react .tailwind-image,
+main .container-skills .grid-skills .react .bootstrap-image,
+main .container-skills .grid-skills .tailwind .mysql-image,
+main .container-skills .grid-skills .tailwind .laravel-image,
+main .container-skills .grid-skills .tailwind .react-image,
+main .container-skills .grid-skills .tailwind .tailwind-image,
+main .container-skills .grid-skills .tailwind .bootstrap-image,
+main .container-skills .grid-skills .bootstrap .mysql-image,
+main .container-skills .grid-skills .bootstrap .laravel-image,
+main .container-skills .grid-skills .bootstrap .react-image,
+main .container-skills .grid-skills .bootstrap .tailwind-image,
+main .container-skills .grid-skills .bootstrap .bootstrap-image {
   width: 35px;
 }
 main .container-skills .grid-skills .html h1,
@@ -278,7 +308,9 @@ main .container-skills .grid-skills .javascript h1,
 main .container-skills .grid-skills .php h1,
 main .container-skills .grid-skills .laravel h1,
 main .container-skills .grid-skills .mysql h1,
-main .container-skills .grid-skills .react h1 {
+main .container-skills .grid-skills .react h1,
+main .container-skills .grid-skills .tailwind h1,
+main .container-skills .grid-skills .bootstrap h1 {
   font-size: 20px;
   color: #5e68c7;
 }
@@ -288,7 +320,9 @@ main .container-skills .grid-skills .javascript p,
 main .container-skills .grid-skills .php p,
 main .container-skills .grid-skills .laravel p,
 main .container-skills .grid-skills .mysql p,
-main .container-skills .grid-skills .react p {
+main .container-skills .grid-skills .react p,
+main .container-skills .grid-skills .tailwind p,
+main .container-skills .grid-skills .bootstrap p {
   font-size: 8px;
 }
 main .container-skills .grid-skills .html:hover {
@@ -310,6 +344,12 @@ main .container-skills .grid-skills .mysql:hover {
   transform: scale(1.1);
 }
 main .container-skills .grid-skills .react:hover {
+  transform: scale(1.1);
+}
+main .container-skills .grid-skills .bootstrap:hover {
+  transform: scale(1.1);
+}
+main .container-skills .grid-skills .tailwind:hover {
   transform: scale(1.1);
 }
 
