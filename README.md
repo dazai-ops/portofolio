@@ -1,2 +1,8 @@
+# Website Portofolio
 
-<h1 align="center">Portfolio</h1>
+Menggunakan HTML dan CSS Native
+
+## Fitur
+- Profil singkat
+- Teknologi yang digunakan
+- Projek
